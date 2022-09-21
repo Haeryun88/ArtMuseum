@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
-
+//정숙이 최고!!
 export const Art = () => {
   //상태관리하기
   // 1.요청의 결과
