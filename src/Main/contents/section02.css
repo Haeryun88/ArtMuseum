@@ -1,0 +1,83 @@
+.section02 {
+  padding: 145px 0;
+  font-family: ofelia-text, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.section02_Title {
+  max-width: 1320px;
+  margin: 10px auto;
+  font-size: 5em;
+}
+.section02_Menu {
+  margin: 0 auto;
+  max-width: 1320px;
+  height: 810px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 28px;
+  grid-row-gap: 30px;
+}
+.s2_main01 {
+  grid-area: 1 / 1 / 3 / 3;
+  background: url(../asset/default.png) no-repeat center / cover;
+}
+
+.s2_main02 {
+  grid-area: 3 / 1 / 4 / 3;
+}
+.s2_main02 p {
+  font-size: 1.88em;
+  font-family: ofelia-text, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.8em;
+}
+
+.s2_main03 {
+  grid-area: 1 / 3 / 2 / 4;
+  background: url(../asset/Artworks.png) no-repeat center / cover;
+  position: relative;
+}
+
+.s2_main03 a {
+  color: #fff;
+  font-style: italic;
+  font-size: 3.13em;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  letter-spacing: 0.15em;
+}
+.s2_main04 {
+  grid-area: 2 / 3 / 3 / 4;
+  background: url(../asset/writing.png) no-repeat center / cover;
+  position: relative;
+}
+
+.s2_main04 a {
+  color: #fff;
+  font-style: italic;
+  font-size: 3.13em;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  letter-spacing: 0.15em;
+}
+
+.s2_main05 {
+  grid-area: 3 / 3 / 4 / 4;
+  background: url(../asset/resource.png) no-repeat center / cover;
+  position: relative;
+}
+
+.s2_main05 a {
+  color: #fff;
+  font-style: italic;
+  font-size: 3.13em;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  letter-spacing: 0.15em;
+}

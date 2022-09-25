@@ -1,0 +1,143 @@
+header {
+  width: 100vw;
+  height: 200px;
+  background: #fff;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  -webkit-box-shadow: 3px 0px 15px -3px rgba(0, 0, 0, 0.65);
+  box-shadow: 3px 0px 15px -3px rgba(0, 0, 0, 0.65);
+  font-family: ofelia-text, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Logo {
+  display: inline-block;
+  background: url(./asset/Logo.png) no-repeat center top / 100%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  top: 16px;
+  left: 140px;
+}
+.headerBox {
+  height: 164px;
+  position: absolute;
+  top: 16px;
+  right: 140px;
+  /* (기본필수) flex container 생성 */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  /* 주축을 열(column)로 설정 */
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  /* [정렬] space-between */
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.TopMenu {
+  /* (기본필수) flex container 생성 */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  /* 주축을 행(row)으로 설정 */
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+
+  /* [정렬] 교차축 - 가운데 기준 */
+  -webkit-box-align: end;
+  -moz-align-items: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+
+  /* [정렬] 주축 - 끝점 기준 */
+  -webkit-box-pack: end;
+  -moz-box-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+
+  /* 폰트 */
+  font-family: ofelia-text, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.88em;
+}
+
+.TopMenu .Logout {
+  display: none;
+  color: #b50938;
+}
+
+.SearchBox {
+  width: 300px;
+  height: 50px;
+}
+
+.TopMenu form {
+  margin-left: 30px;
+  display: inline-block;
+  height: 50px;
+  position: relative;
+}
+
+.TopMenu input {
+  width: 260px;
+  height: 45px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 800;
+  top: 0;
+  color: #b50938;
+  font-size: 1em;
+}
+
+.TopMenu button {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  bottom: 0;
+  z-index: 801;
+  left: 215px;
+}
+
+.TopMenu button:hover svg {
+  fill: #b50938;
+}
+
+/* DownMenu */
+
+.DownMenu {
+  font-size: 2.5em;
+}
+
+.DownMenu a {
+  color: black;
+  margin-left: 65px;
+}
+
+.DownMenu a:hover {
+  color: #b50938;
+}
+/* border: 1px solid red; */
+
+/*  미디어쿼리 */
+@media screen and (max-width: 320px) {
+}
