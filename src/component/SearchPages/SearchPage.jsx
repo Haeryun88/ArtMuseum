@@ -14,8 +14,6 @@ function SearchPage(Art) {
           </a>
         ))}
       </ul>
-      <button onClick={fetchArt()}>다시 불러오기</button>
-      <button onClick={nextPage()}>다음</button>
     </>
   );
 }

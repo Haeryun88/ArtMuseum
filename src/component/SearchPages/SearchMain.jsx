@@ -58,6 +58,7 @@ function SearchMain() {
     setNext(next + 1);
     console.log(next);
   };
+
   //렌더링 될때 axios를 사용해서 데이터를 받음
   useEffect(() => {
     fetchArt();
@@ -78,6 +79,8 @@ function SearchMain() {
       <Header />
       <SearchAside />
       <SearchPage Art={Art} />
+      <button onClick={nextPage}>다음</button>
+
       <Footer />
     </>
   );
