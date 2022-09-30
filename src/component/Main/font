@@ -1,0 +1,90 @@
+<link rel="stylesheet" href="https://use.typekit.net/jze5tjr.css">
+
+Ofelia Text Bold
+
+font-family: ofelia-text, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Ofelia Text Bold Italic
+
+font-family: ofelia-text, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Ofelia Text Italic
+
+font-family: ofelia-text, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Ofelia Text Light
+
+font-family: ofelia-text, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+Ofelia Text Light Italic
+
+font-family: ofelia-text, sans-serif;
+
+font-weight: 300;
+
+font-style: italic;
+
+
+Ofelia Text Medium
+
+font-family: ofelia-text, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+Ofelia Text Medium Italic
+
+font-family: ofelia-text, sans-serif;
+
+font-weight: 500;
+
+font-style: italic;
+
+
+Ofelia Text Regular
+
+font-family: ofelia-text, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+/* Ofelia Text Semibold */
+
+font-family: ofelia-text, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+
+
+/* Ofelia Text Semibold Italic */
+
+font-family: ofelia-text, sans-serif;
+
+font-weight: 600;
+
+font-style: italic;

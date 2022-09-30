@@ -1,19 +1,16 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Sample01 from "./sample01/Sample01";
-import Sample02 from "./sample02/Sample02";
-
 // 메인
-import Main from "./Main/Main";
+import Main from "./component/Main/Main";
+//검색
+import SearchMain from "./component/SearchPages/SearchMain";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path={"/"} element={<Main />} />
-      </Routes>
-      <Routes>
-        <Route path={"/detail"} element={<Sample02 />} />
+        <Route path={"/search/:value"} element={<SearchMain />} />
       </Routes>
     </BrowserRouter>
   );
